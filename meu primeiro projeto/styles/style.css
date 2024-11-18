@@ -1,0 +1,80 @@
+
+body {
+  font-family: "Gravitas One", serif;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  background: #14171C;
+}
+
+h1 {
+  font-family: "Gravitas One", serif;
+}
+
+header {
+  font-family: "Varta", sans-serif;
+  text-align: center;
+  background: #2C343F;
+  color: #F27405;
+  padding: 1rem 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+}
+
+main {
+  font-family: "Varta", sans-serif;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#input, #recommendation {
+  background: #14171C;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px #2C343F;
+}
+
+#movie-card {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+#movie-card img {
+  width: 150px;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+button {
+  background: #00B021;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #2C343F;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #00B021;
+  font-size: 0.9rem;
+  color: #2C343F;
+}

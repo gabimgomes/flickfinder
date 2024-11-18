@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:ital,wght@0,600;1,600&family=Varta:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <title>FlickFinder</title>
+</head>
+<body>
+    <header>
+        <h1>FlickFinder</h1>
+        <p>Encontre o seu próximo filme favorito beaseado em sua conta Letterboxd!</p>
+    </header>
+    <main>
+        <section id="input">
+          <h2>Conecte sua conta Letterboxd</h2>
+          <button>Log in</button>
+          <p>Ou descreva suas preferências em um filme:</p>
+          <form id="movie-form">
+            <label for="genre">Gênero favorito:</label>
+            <select id="genre">
+                <option value="28">Ação</option>
+                <option value="35">Comédia</option>
+                <option value="18">Drama</option>
+                <option value="27">Terror</option>
+                <option value="12">Aventura</option>
+                <option value="16">Animação</option>
+                <option value="80">Crime</option>
+                <option value="99">Documentário</option>
+                <option value="14">Fantasia</option>
+                <option value="9648">Mistério</option>
+                <option value="878">Ficção científica</option>
+            </select>
+            <button type="submit">Encontre um filme</button>
+          </form>
+        </section>
+    
+        <section id="recommendation">
+          <h2>Sua sugestão do dia</h2>
+          <div id="movie-card">
+            <img src="" alt="Movie Poster">
+            <div>
+              <h3></h3>
+              <p></p>
+              <p><strong>Gênero:</strong> </p>
+              <button>Assista ao trailer</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <script src="script.js"></script>
+</body>
+</html>
